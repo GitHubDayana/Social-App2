@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/saiprasadr870/social-app'
+                git branch: 'main', url: 'https://github.com/GitHubDayana/Social-App2.git'
             }
         }
         stage('Install Dependencies') {
