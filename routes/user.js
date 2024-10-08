@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const bcrypt = require('bcrypt');
 
 // MySQL connection
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'Dayana',
+    user: 'dayana',
     password: '12345',
     database: 'social_app'
 });
