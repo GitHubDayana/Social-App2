@@ -5,9 +5,9 @@ const bcrypt = require('bcrypt');
 
 // MySQL connection
 const db = mysql.createConnection({
-    host: '13.233.229.57',
-    user: 'Vijay',
-    password: '12345678',
+    host: 'localhost',
+    user: 'Dayana',
+    password: '12345',
     database: 'social_app'
 });
 
